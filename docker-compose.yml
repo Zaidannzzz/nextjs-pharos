@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  nextjs-pharos:
+    build: 
+      context: .
+    ports:
+      - "3000:3000"
+    container_name: nextjs-pharos
